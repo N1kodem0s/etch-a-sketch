@@ -1,0 +1,51 @@
+body { 
+  min-height: 100vh;
+  height: 100vh;
+  font-family: 'DynaPuff', cursive;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font: 'Montserrat Alternates'
+}
+
+#new , #clear {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font: 'Montserrat Alternates';
+
+}
+
+#clear {
+  padding-top: 10px;
+}
+
+#container {
+  width: 65vh;
+  height: 65vh;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 1px;
+  display: grid;
+}
+
+.grid-item {
+  width: 1fr;
+  height: 1fr;
+  border-style: solid;
+  border-width: 1px;
+}
